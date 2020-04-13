@@ -1,9 +1,9 @@
-package datastructures.interafaces;
+package datastructures;
+
+import static org.junit.Assert.assertEquals;
 
 import java.util.List;
-
-import datastructures.MaxHeap;
-import datastructures.MinHeap;
+import datastructures.interafaces.MedianQueue;
 
 public class GenericMedianQueue<T extends Comparable<? super T>> implements MedianQueue<T> {
 
@@ -50,4 +50,5 @@ public class GenericMedianQueue<T extends Comparable<? super T>> implements Medi
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
 }
